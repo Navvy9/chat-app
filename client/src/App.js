@@ -5,7 +5,7 @@ import VideoChat from "./VideoChat";
 import "./App.css"
 import "./VideoChat.css"
 
-const socket = io.connect("https://chat-app-backend-eight-delta.vercel.app/");
+const socket = io.connect("https://chat-app-backend-08wc.onrender.com");
 
 function App({ sound }) {
   const [username, setUsername] = useState("");
