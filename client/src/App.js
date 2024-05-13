@@ -46,7 +46,7 @@ function App({ sound }) {
             }}
           />
           <button onClick={joinRoom}>Join A Room</button>
-          <button onClick={startVideoChat}>Start Video Chat</button>
+          {/* <button onClick={startVideoChat}>Start Video Chat</button> */}
         </div>
       )}
       {showChat && (
